@@ -24,8 +24,7 @@ class KIconButton extends StatelessWidget {
       this.width,
       this.icon,
       this.iconSize,
-      this.iconColor
-      })
+      this.iconColor})
       : super(key: key);
 
   @override
@@ -36,7 +35,7 @@ class KIconButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
-          primary: color,
+          backgroundColor: color,
         ),
         child: Row(
           children: [
